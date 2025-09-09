@@ -1,0 +1,18 @@
+include:
+  - { term: "스타트업", weight: 3 }
+  - { term: "창업", weight: 3 }
+  - { term: "투자 유치", weight: 4 }
+  - { term: "시드", weight: 2 }
+  - { term: "프리A", weight: 2 }
+  - { term: "시리즈", weight: 2 }
+  - { term: "TIPS", weight: 3 }
+  - { term: "정책자금", weight: 3 }
+  - { term: "보조금", weight: 2 }
+  - { term: "공모", weight: 2 }
+  - { term: "육성", weight: 2 }
+  - { term: "가속화", weight: 2 }
+exclude:
+  - { term: "증권 시황", weight: -5 }
+  - { term: "연예", weight: -10 }
+score_threshold: 3
+max_items: 12
